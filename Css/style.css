@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding:0;
+    margin: auto;
+    border: 1px solid black;
+}
+@keyframes head{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    100%{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@keyframes leftfoot{
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 84px;
+        height: 21px;
+    }
+}
+@keyframes rightfoot {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 84px;
+        height: 21px;
+    }
+}
+body{
+    background: #000;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background: #ffffff;
+    margin-top: 150px;
+}
+
+.head{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: blue;
+    position: relative;
+     margin-top: 50px;
+     animation: head 3s linear;
+}
+@keyframes innerface {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 120px;
+        height: 120px;
+    }
+}
+.innerface{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 15px; 
+    animation: innerface 3s linear;   
+}
+@keyframes lefteyes {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 35px;
+        height: 45px;
+    }
+}
+.lefteyes{
+    width: 33px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 27px;
+    top: -20px;
+    animation: lefteyes 3s linear;
+}
+@keyframes blackcircle {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 10px;
+        height: 20px;
+    }
+}
+.blackcircle{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    bottom: 4px;
+    left: 11px;
+}
+@keyframes blackwhite {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 3px;
+        height: 8px;
+    }
+}
+.blackwhite{
+    width: 3px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+    left: 2px;
+}
+@keyframes righteyes {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 35px;
+        height: 45px;
+    }
+}
+.righteyes{
+    width: 33px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 23px;
+    top: -20px; 
+    animation: righteyes 3s linear;
+}
+@keyframes nose {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 20px;
+        height: 20px;
+    }
+}
+.nose{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background: red;
+    top: 19px;
+    left: 51px;
+    animation: nose 3s linear;
+}
+@keyframes nosewhite {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 8px;
+        height: 8px;
+    }
+}
+.nosewhite{
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    border: none;
+    top: 2px;
+    left: 1px;
+    animation: nosewhite 3s linear;
+}
+@keyframes border {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 1px;
+        height: 25px;
+    }
+}
+.border{
+    width: 1px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    border: none;
+    left: 51%;
+    top: 34%;
+    animation: border 3s linear;
+}
+@keyframes mouth {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 65px;
+        height: 35px;
+    }
+}
+.mouth{
+    background-color: red;
+    width: 65px;
+    height: 35px;
+    position: absolute;
+    top: 55%;
+    left: 28px;
+    border-radius: 0 0 35px 35px;
+    animation: mouth 3s linear;
+}
+@keyframes red1 {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 116px;
+        height: 10px;
+    }
+}
+.red{
+    background: red;
+    position: absolute;
+    width: 116px;
+    height: 10px;
+    border-radius: 50px;
+    top: 95%;
+    z-index: 9999;
+    animation: red1 3s linear;
+}
+@keyframes redcircle {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 12px;
+        height: 12px;
+    }
+}
+.redcircle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: redcircle 3s linear;
+}
+@keyframes body {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 150px;
+        height: 160px;
+    }
+}
+.body{
+    width: 150px;
+    height: 160px;
+    background-color: blue;
+    border-radius: 20px 20px;
+    position: relative;
+    animation: body 3s linear; 
+}
+@keyframes innerbody {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 130px;
+        height: 130px;
+    }
+}
+.innerbody{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 9px;
+    animation: innerbody 3s linear;
+}
+@keyframes pocket {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 70px;
+        height: 34px;
+    }
+}
+.pocket{
+    width: 70px;
+    height: 34px;
+    border-radius: 0 0 34px 34px;
+    position: absolute;
+    bottom: 23px;
+    left: 22%;
+    animation: pocket 3s linear;
+}
+@keyframes righthead {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 15px;
+        height: 70px;
+    }
+}
+.righthend{
+    width: 15px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 30px;
+    position: absolute;
+    left: -10px;
+    top: 11px;
+    animation: righthead 3s linear;
+}
+@keyframes rightcircle {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 18px;
+        height: 18px;
+    }
+}
+.rightcircle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    left: -2px;
+    animation: rightcircle 3s linear;
+}
+@keyframes lefthend {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 70px;
+        height: 15px;
+    }
+}
+.lefthend{
+    width: 70px;
+    height: 15px;
+    left: 144px;
+    animation: lefthend 3s linear;
+}
+
+.leftcircle{
+    left: 54px;
+    top: -7px;
+}
+@keyframes bodyborder {
+    0%{
+        height: 0px;
+        width: 0px;
+    }
+    100%{
+        width: 1px;
+        height: 28px;
+    }
+}
+.bodyborder{
+    width: 1px;
+    height: 28px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 51%;
+    border: none;
+    animation: bodyborder 3s linear;
+}
+.leftfoot{
+    width: 84px;
+    height: 21px;
+    position: absolute;
+    bottom: -12px;
+    background: white;
+    border-radius: 50px;
+    left: -9px;
+    animation: leftfoot 3s linear;
+
+}
+.rightfoot{
+    right: -12px;
+    width: 82px;
+    height: 21px;
+    position: absolute;
+    bottom: -12px;
+    background: white;
+    border-radius: 50px;
+    animation: rightfoot 3s linear;
+
+}
